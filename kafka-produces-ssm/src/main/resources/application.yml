@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: kafka-producer-ssm
+
+  config:
+    import: ${PROFILE_SSM_STORE}
